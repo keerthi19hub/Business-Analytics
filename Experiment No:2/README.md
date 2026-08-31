@@ -9,7 +9,6 @@ A retail company wants to understand how its sales and profit are doing across d
 Dataset
 Source: Sample Superstore dataset
 Size: 9,994 rows
-
 Fields include: Order Date, Ship Date, Customer ID, Segment, Region, City, State, Product ID, Category, Sub-Category, Sales, Quantity, Discount, and Profit
 Each row represents a single order line, so one order can appear more than once if it included multiple products.
 
@@ -22,6 +21,7 @@ Total Profit — SUM of all profit values
 Total Quantity — total units sold
 Total Orders — distinct count of orders placed
 Dashboard Design — Built a two-page interactive report (see below).
+
 Tools Used
 Power BI Desktop
 Power Query Editor
@@ -36,6 +36,7 @@ Total Sales by Region
 Total Sales by Sub-Category
 Top 10 Products by Sales
 
+
 Page 2 — Trends and Regions
 Sales Trend Over Time (2014–2017)
 Sales by Region and Category table
@@ -43,10 +44,14 @@ Total Sales by State (map)
 Slicers for Region, Category, Segment, and Order Date
 
 Key Insights
+
 Technology and Furniture bring in the most sales, followed closely by Office Supplies.
 West and East regions consistently sell more than Central and South.
 Phones, Chairs, and Storage are the top sub-categories; Labels and Fasteners barely contribute.
 Sales show clear spikes at certain points in the timeline.
+California (Los Angeles in particular) is one of the stronger markets.
+The Consumer segment places orders more often than Corporate or Home Office.
+Standard Class is the most common shipping method used across orders.
 
 How to View
 Clone this repository.
@@ -59,6 +64,3 @@ Writing DAX formulas to create calculated columns and measures.
 Understanding how KPI cards, bar charts, line charts, and maps each serve a different purpose on a dashboard.
 Adding slicers to make a report interactive rather than a static set of charts.
 Designing dashboard pages around what an actual user would want to know.
-California (Los Angeles in particular) is one of the stronger markets.
-The Consumer segment places orders more often than Corporate or Home Office.
-Standard Class is the most common shipping method used across orders.
