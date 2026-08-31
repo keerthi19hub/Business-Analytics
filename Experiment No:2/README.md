@@ -52,6 +52,7 @@ How to View
 Clone this repository.
 Open powerbi/Superstore_Sales_Dashboard.pbix in Power BI Desktop.
 Use the slicers on Page 2 to filter by Region, Category, Segment, or Order Date.
+
 Learning Outcomes
 Importing and cleaning data properly using Power Query before building anything on top of it.
 Writing DAX formulas to create calculated columns and measures.
