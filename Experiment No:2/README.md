@@ -9,8 +9,10 @@ A retail company wants to understand how its sales and profit are doing across d
 Dataset
 Source: Sample Superstore dataset
 Size: 9,994 rows
+
 Fields include: Order Date, Ship Date, Customer ID, Segment, Region, City, State, Product ID, Category, Sub-Category, Sales, Quantity, Discount, and Profit
 Each row represents a single order line, so one order can appear more than once if it included multiple products.
+
 What Was Done
 Data Import — Loaded the Sample_Superstore data into Power BI as a table.
 Data Cleaning — Used Power Query to promote headers, fix column data types (Sales, Quantity, and Discount as numbers), correct the date locale for Order Date and Ship Date, and confirm there were no empty or error values in key columns.
@@ -24,18 +26,22 @@ Tools Used
 Power BI Desktop
 Power Query Editor
 DAX (Data Analysis Expressions)
+
 Dashboard Pages
+
 Page 1 — Sales Overview
 KPI cards: Total Sales (2.30M), Total Profit (286.40K), Quantity Sold (38K), Total Orders (5K)
 Total Sales by Category
 Total Sales by Region
 Total Sales by Sub-Category
 Top 10 Products by Sales
+
 Page 2 — Trends and Regions
 Sales Trend Over Time (2014–2017)
 Sales by Region and Category table
 Total Sales by State (map)
 Slicers for Region, Category, Segment, and Order Date
+
 Key Insights
 Technology and Furniture bring in the most sales, followed closely by Office Supplies.
 West and East regions consistently sell more than Central and South.
