@@ -102,6 +102,8 @@ MySQL Workbench – Database creation and SQL operations
 Power BI Desktop – Data analysis and dashboard creation
 Power Query – Data cleaning and transformation
 DAX – Measures and calculations
+
 ✅ Conclusion
 
-This project helped in understanding how MySQL and Power BI can be used together for business analytics. The final dashboard provides an interactive way to analyse retail performance and understand customer behaviour through different charts, KPIs, and filters.
+This project helped in understanding how MySQL and Power BI can be used together for business analytics.
+The final dashboard provides an interactive way to analyse retail performance and understand customer behaviour through different charts, KPIs, and filters.
